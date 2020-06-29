@@ -77,7 +77,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
 //        });
 
             jTextPane1.setEditable(false);
-            String str = "welcome to https://google.com\nwelcome to https://google.com";
+            String str = "1welcome to https://google.com\nwelcome to https://google.com";
             jTextPane1.setText(str);
             StyledDocument doc = jTextPane1.getStyledDocument();
             Style regularBlue = doc.addStyle("regularBlue", StyleContext.getDefaultStyleContext().getStyle(StyleContext.DEFAULT_STYLE));
