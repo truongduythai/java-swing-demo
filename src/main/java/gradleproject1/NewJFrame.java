@@ -155,7 +155,7 @@ public class NewJFrame extends javax.swing.JFrame {
         if (evt.getClickCount() == 2) {
             Desktop desktop = Desktop.getDesktop();
             try {
-                desktop.browse(new URL("http://google.com.vn").toURI());
+                desktop.browse(new URL("ahttp://google.com.vn").toURI());
             } catch (IOException | URISyntaxException ex) {
                 ex.printStackTrace();
             }
